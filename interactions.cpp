@@ -1,5 +1,5 @@
 #include "membrane.h"
-
+%lkajsdf
 void Water::InterfacialLJ(int Nin, int Nframes, REAL zV0, int Nsteps, REAL width){
   int n, m, i,k, ncasos, N0, N1, Nmax;
   REAL e1,zV, E1[100000], Etotal[1000], AvE, sigmaE;
@@ -17,7 +17,6 @@ void Water::InterfacialLJ(int Nin, int Nframes, REAL zV0, int Nsteps, REAL width
   outfile1 = fopen(noutfile1,"w");
   outfile2 = fopen(noutfile2,"w");
   logfile = fopen("logfile.log","w");
-
 
   Nmax = 20;
   for(m=0;m<Nframes;m++){Etotal[m] = 0.0;}
