@@ -1,5 +1,5 @@
 #include "membrane.h"
-%lkajsdf
+
 void Water::InterfacialLJ(int Nin, int Nframes, REAL zV0, int Nsteps, REAL width){
   int n, m, i,k, ncasos, N0, N1, Nmax;
   REAL e1,zV, E1[100000], Etotal[1000], AvE, sigmaE;
